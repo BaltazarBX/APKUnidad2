@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".Crud">
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="89dp"
+        android:layout_height="42dp"
+        android:layout_weight="1"
+        app:srcCompat="@mipmap/logo2" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:textSize="23sp"
+        android:text="Agrega tus Datos para agendar tu visita" />
+
+    <Button
+        android:id="@+id/btn_insertar"
+        android:layout_width="231dp"
+        android:layout_height="32dp"
+        android:layout_weight="1"
+        android:backgroundTint="#FF5722"
+        android:text="@string/btn_insetar"
+        android:textSize="22sp"/>
+
+    <ListView
+        android:id="@+id/lista"
+        android:layout_width="383dp"
+        android:layout_height="535dp"
+        android:layout_weight="1" />
+
+</LinearLayout>

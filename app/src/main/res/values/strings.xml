@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">APKnew</string>
+    <string name="et_usuario">Ingrese un Usuario</string>
+    <string name="et_password">Ingrese contraseña</string>
+    <string name="btn_ininio">Iniciar sesion</string>
+    <string name="Descripcion">Descripcion</string>
+    <string name="et_resultado">Bienvenido</string>
+    <string name="btn_crud">Formulario</string>
+    <string name="btn_gps">Tienda</string>
+    <string name="btn_insetar">Agregar</string>
+</resources>
